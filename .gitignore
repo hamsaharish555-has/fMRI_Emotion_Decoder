@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# fMRI / medical datasets
+data/*
+!data/.gitkeep
+
+# Model files
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# VS Code
+.vscode/
+
+# Environment / secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
